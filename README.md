@@ -1,57 +1,105 @@
-💼 Job Portal – Connect Students with Jobs
-A full-stack web application built to bridge the gap between students and companies. This portal helps students find jobs and recruiters manage hiring — all in one place.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Portal README</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; padding: 20px;">
 
-✨ What It Does
-👨‍🎓 For Students:
-🔍 Search Jobs – Filter jobs based on skills, qualifications, and eligibility.
+  <h1>💼 Job Portal – Connect Students with Jobs</h1>
+  <p>A <strong>full-stack web application</strong> built to help students find jobs and allow recruiters to manage applications — all in one place.</p>
 
-📄 Apply Online – Easily apply for job posts.
+  <hr/>
 
-📊 Track Application – See if your application is accepted or rejected.
+  <h2>✨ What It Does</h2>
 
-🧾 Manage Profile – Edit your personal and educational information.
+  <h3>👨‍🎓 For Students:</h3>
+  <ul>
+    <li>🔍 <strong>Search Jobs</strong> – Filter jobs by qualifications and eligibility.</li>
+    <li>📄 <strong>Apply for Jobs</strong> – Submit applications directly through the portal.</li>
+    <li>📊 <strong>Track Application</strong> – Check if applications are accepted or rejected.</li>
+    <li>🧾 <strong>Update Profile</strong> – Manage personal and academic info.</li>
+  </ul>
 
-🏢 For Recruiters:
-🏢 Register Company – Add company details and get started.
+  <h3>🏢 For Recruiters:</h3>
+  <ul>
+    <li>🏢 <strong>Register Company</strong> – Add details and get listed.</li>
+    <li>📝 <strong>Post Job Listings</strong> – Share open positions for students.</li>
+    <li>📋 <strong>Manage Applicants</strong> – Accept or reject applications easily.</li>
+  </ul>
 
-📝 Post Job Listings – Share job openings with students.
+  <hr/>
 
-📋 Manage Applications – View, accept, or reject applicants.
+  <h2>🛠️ Tech Stack</h2>
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Layer</th>
+      <th>Tech Used</th>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td>React, Redux Toolkit, ShadCN UI, Tailwind CSS, Toaster</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>Node.js, Express.js</td>
+    </tr>
+    <tr>
+      <td>Database</td>
+      <td>MongoDB</td>
+    </tr>
+    <tr>
+      <td>Authentication</td>
+      <td>JWT (JSON Web Token)</td>
+    </tr>
+    <tr>
+      <td>File Upload</td>
+      <td>Resume Upload (PDF supported)</td>
+    </tr>
+    <tr>
+      <td>State Management</td>
+      <td>Redux Toolkit</td>
+    </tr>
+  </table>
 
-🛠️ Tech Stack
-Layer Tech Used
-Frontend React, Redux Toolkit, ShadCN UI, Tailwind CSS, Toaster
-Backend Node.js, Express.js
-Database MongoDB
-Auth JWT (JSON Web Token)
-File Upload Resume Upload (PDF supported)
-State Mgmt Redux Toolkit
+  <hr/>
 
-🚀 Key Features
-✅ Secure Login/Signup (JWT-based authentication)
+  <h2>🚀 Key Features</h2>
+  <ul>
+    <li>✅ Secure Login/Signup with JWT</li>
+    <li>📎 Resume Upload for students</li>
+    <li>⚙️ Clean and responsive UI (Tailwind CSS + ShadCN)</li>
+    <li>📬 Real-time notifications using Toaster</li>
+  </ul>
 
-📎 Resume Upload (Students can attach resumes while applying)
+  <hr/>
 
-⚙️ Simple UI/UX (Responsive and clean design using Tailwind + ShadCN)
+  <h2>🤝 Who Can Use This?</h2>
+  <ul>
+    <li>🧑‍🎓 Students seeking internships or job opportunities</li>
+    <li>🧑‍💼 Recruiters looking to hire fresh talent</li>
+    <li>🧑‍💻 Developers or learners exploring full-stack project structure</li>
+  </ul>
 
-📬 Real-time Notifications (Toaster alerts for actions like applying or posting jobs)
+  <hr/>
 
-🤝 Who Can Use This?
-🧑‍🎓 Students looking for jobs or internships.
+  <h2>🧱 Folder Structure (Simplified)</h2>
+  <pre>
+/client   → React Frontend (Redux Toolkit, UI)
+/server   → Node.js + Express Backend
+  </pre>
 
-🧑‍💼 Recruiters from companies who want to hire fresh talent.
+  <hr/>
 
-🧑‍💻 Developers & Learners looking for a clean full-stack project to study or contribute to.
+  <h2>📚 Learnings from the Project</h2>
+  <ul>
+    <li>How frontend and backend communicate via API</li>
+    <li>Global state handling with Redux Toolkit</li>
+    <li>User authentication using JWT</li>
+    <li>File handling and resume upload</li>
+    <li>Role-based access: Student vs Recruiter</li>
+  </ul>
 
-🧱 Folder Structure (High-Level)
-bash
-Copy
-Edit
-/client → React Frontend (Redux Toolkit, UI)
-/server → Node.js + Express Backend
-📚 How to Learn From This Project
-Understand how frontend and backend communicate (API calls).
-Learn to manage global state with Redux Toolkit.
-Explore secure user login (JWT).
-Work with form handling and resume (file) upload.
-See how roles (student vs recruiter) are handled.
+</body>
+</html>
